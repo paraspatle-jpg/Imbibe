@@ -1,0 +1,43 @@
+main {
+  width: 60%;
+
+  margin-top: 100px;
+}
+.aside {
+  display: flex;
+  justify-content: space-between;
+}
+.aside > input,
+label {
+  width: 45%;
+}
+.big-text {
+  font-size: 50px;
+  margin-top: 60px;
+}
+.label-text {
+  font-size: 22px;
+  font-weight: 600;
+}
+.input-box {
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px 15px;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid darkgray;
+}
+.submit-btn {
+  width: 100%;
+  background: #7155a3;
+  color: white;
+  font-size: 22px;
+  border: none;
+  padding: 3px;
+  border-radius: 19px;
+  margin-bottom: 15px;
+}
+
+.extra-text {
+  color: black;
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+ul {
+  list-style: none;
+}
+.hr {
+  margin: 1rem;
+}
+.profile {
+  height: 100%;
+}
+.profile-lg {
+  width: min-content;
+  display: inline-block;
+}
+.logo-padding {
+  padding: 30px;
+  padding-bottom: 0px;
+}
+.quick-links {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px -10px 10px #8d8d8d;
+}
+.imbibe {
+  padding: 30px;
+}
+.imbibe:hover {
+  text-decoration: none;
+}
+.imbibe-content {
+  color: #3a86ff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.profile-pic-1 {
+  width: 160px;
+  margin: auto;
+}
+.profile-name {
+  width: fit-content;
+  margin: auto;
+  color: #3a86ff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.quick-links-list {
+  margin-top: 50px;
+  margin-bottom: 100%;
+}
+.nav-link0 {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.list-item {
+  padding: 5px 0px 5px 25px;
+  font-size: 20px;
+  color: #101010;
+  font-weight: 500;
+}
+
+.active-item {
+  padding-left: 15px;
+  color: #3a86ff;
+  border-left: 10px solid #3a86ff;
+}
+.active-item:hover {
+  color: currentColor;
+}
+.list-item:hover {
+  color: currentColor;
+}
+.mb-full {
+  margin-top: 30px;
+  margin-bottom: 100%;
+  padding-left: 0px;
+}
+
+.profile-sm {
+  display: none;
+}
+.timetable,
+.submissions,
+.leaderboard,
+.activity-board {
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-lg {
+    display: none;
+  }
+  .profile-sm {
+    display: inline-block;
+  }
+}
